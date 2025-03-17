@@ -1,0 +1,21 @@
+.transactionsTable {
+  margin-top: 60px;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.tableHead {
+  color: whitesmoke;
+  background-color: #241f1f;
+  text-align: center;
+}
+
+.tableData {
+  padding: 4px;
+  border: 1px solid gray;
+}
+
+.tableRow:nth-child(2n) {
+  background-color: lightgrey;
+}

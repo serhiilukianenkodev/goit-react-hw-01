@@ -1,0 +1,47 @@
+.userCard {
+  width: 280px;
+  border: 2px solid dimgray;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.userInfo {
+  padding: 16px;
+  color: gray;
+}
+
+.userImg {
+  margin: 0 auto 8px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: dimgray;
+}
+
+.userName {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.userStats {
+  display: flex;
+}
+
+.userStat {
+  flex-basis: 33.333%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(128, 126, 126);
+  background-color: rgb(226, 226, 219);
+
+  &:not(:last-child) {
+    border-right: 1px solid rgb(128, 126, 126);
+  }
+}
+
+.statAmount {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
